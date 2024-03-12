@@ -1,0 +1,127 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[frenchb]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsfonts}
+\usepackage[margin=1in,top=0.5in,headheight=5\baselineskip,headsep=1\baselineskip,includehead]{geometry}
+\usepackage{fourier}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{setspace}
+%% some invisible "struts" to help define the structures and row heights.
+\newcommand{\aevstrut}{\rule{0pt}{2.9ex}}
+\newcommand{\aehstrut}{\rule{0.45em}{0pt}}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+%% set up and width for the tabularx environment to expand and fit to.
+\newlength{\headerwidth}
+\setlength{\headerwidth}{\textwidth}
+%\setlength{\headheight}{5cm}
+\newsavebox{\myheader}
+\begin{lrbox}{\myheader}%
+	\begin{minipage}[b]{\headerwidth}
+		\renewcommand{\arraystretch}{1.29}%
+		\begin{tabular}{|C{0.21\headerwidth}|C{0.79\headerwidth}|}\hline
+			\multirow{5}{*}{\includegraphics[width=0.21\headerwidth]{espa_new_logo_35.png}} &\textbf{\textsc{Ecole Sup{\'e}rieure Polytechnique d'Antsiranana}}\\
+			&\textbf{\textsc{Mention Master STIC}}\\
+			&B.P. O 201 $-$ ANTSIRANANA $-$ MADAGASCAR\\
+			&\textbf{T{\'e}l.: }+261 (0)32 76 395 40  ou +261 (0)32 03 395 40\\
+			&\textbf{Courriel : }mentionsticespa@ gmail.com\\\hline
+		\end{tabular}
+	\end{minipage}
+\end{lrbox}
+%% Setting up the header
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+%\lhead{}
+\chead{\usebox{\myheader}}
+%\rhead{}
+%\lfoot{}
+%\cfoot{}
+%\rfoot{}
+
+%---------------------------------------------------------------------------------------------------------------
+%	Debut du document
+%---------------------------------------------------------------------------------------------------------------
+\begin{document}
+
+%---------------------------------------------------------------------------------------------------------------
+%---------------------------------------------------------------------------------------------------------------
+%	Premier sujet
+%---------------------------------------------------------------------------------------------------------------
+%---------------------------------------------------------------------------------------------------------------
+
+%---------------------------------------------------------------------------------------------------------------
+%	En tete de chaque page
+%---------------------------------------------------------------------------------------------------------------
+\begin{tabular}{C{\textwidth}}
+	\begin{flushright}
+	{\it Maîtriser aujourd'hui la technologie de demain}
+	\end{flushright}
+	\textbf{\Large Mémoire de fin d'étude $-$ Année Académique 2015/2016}\\\hline
+\end{tabular}
+\begin{flushright}
+{\bf 01 étudiant en Master 2}
+\end{flushright}
+
+%---------------------------------------------------------------------------------------------------------------
+%	Titre du sujet
+%---------------------------------------------------------------------------------------------------------------
+\begin{center}
+\section*{Titre :  Calendrier potager sous androïde }
+\end{center}
+
+%---------------------------------------------------------------------------------------------------------------
+%	Objectif
+%---------------------------------------------------------------------------------------------------------------
+\subsection*{Objectif}
+Le calendrier potager est un calendrier de travaux de jardinage qui  aide les agriculteurs à
+mieux récolter sachant que chaque espèce potagère demande des soins spécifiques. Le calendrier
+vas donc les accompagner mois par mois pour savoir : quelle variété choisir et quand planter et
+quand récolter, quand effectuer les semis du potager, l'éclaircissage et le repiquage. C'est donc un
+tableau de bord pour des cultures optimisées. \\
+L’objectif de ce travail est donc créer un calendrier interactif de potager. \\
+ 
+OBJECTIF : Conception et réalisation d’un calendrier potager sous androïde  
+
+%---------------------------------------------------------------------------------------------------------------
+%	Travaux demandes
+%---------------------------------------------------------------------------------------------------------------
+\subsection*{Travaux demand{\'e}s}
+\begin{itemize}
+	\item Etude bibliographique
+	\item Modélisation de l’application
+	\item Conception et développement de l’application
+	\item Implémentation et test 
+\end{itemize}
+
+%---------------------------------------------------------------------------------------------------------------
+%	Documentation
+%---------------------------------------------------------------------------------------------------------------
+%\subsection*{Bibliographie}
+%$[1]$ Pramod Pal, TM Shuhum, Amit Ojha. (2014). Simulation of Brushless DC Motor for Performance Analysing using Matlab/Simulink Environment. International Journal on Recent and Innovation Trends in Computing and Communication. Volume 2 (Numéro 6), 1564-1567.\\
+
+%$[2]$ M.ATTOU Amine (2011), Commande par mode glissant de la machine synchrone à aimants permanents, Master en Électrotechnique, UNIVERSITE DJILLALI LIABES DE SIDI BEL-ABBES.\\
+
+%$[3]$ Jérôme FAUCHER, (2006). Les plans d'expériences pour le réglage de commande à base de logique floue. Thèse de doctorant de l'Institut National Polytechnique de Toulouse.
+
+%---------------------------------------------------------------------------------------------------------------
+%	Lieu de travail
+%---------------------------------------------------------------------------------------------------------------
+%\subsection*{Lieu de travail}
+%Laboratoire d'Automatique \& Laboratoire {\'E}lectronique Industrielle
+
+%---------------------------------------------------------------------------------------------------------------
+%	Encadreur
+%---------------------------------------------------------------------------------------------------------------
+\subsection*{Encadreur(s)}
+\begin{itemize}
+	\item ANDRIANAJAINA Todizara%, Professeur (razafinjaka@yahoo.fr)
+	\item ANDRIAMIHARINJAKA Hasina , Docteur %(philibert.andrianiriniaimalaza@gmail.com
+\end{itemize}
+\end{document}

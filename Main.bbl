@@ -1,0 +1,30 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{RVR{\etalchar{+}}00}
+
+\bibitem[D'I08]{Yann2008}
+Yann D'Isanto.
+\newblock Introduction au sdk android.
+\newblock 2008.
+
+\bibitem[RVR{\etalchar{+}}00]{Alejandro2000}
+Alejandro Ramirez, Philippe Vanpeperstraete, Andreas Rueckert, Kunle Odutola,
+  Jeremy Bennett, Linus Tolke, and Michiel van~der Wulp.
+\newblock Argouml user manual.
+\newblock 2000.
+
+\bibitem[San14]{Kartik2014}
+Kartik Sankaran.
+\newblock Android concepts and programming.
+\newblock 2014.
+
+\bibitem[wB91]{Williamann-BellInc}
+williamann Bell.
+\newblock Astronomical algorithms.
+\newblock 1991.
+
+\bibitem[Yad11]{Nikhil2011}
+Nikhil Yadav.
+\newblock Android development tutorial.
+\newblock 2011.
+
+\end{thebibliography}

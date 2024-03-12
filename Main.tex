@@ -1,0 +1,165 @@
+%% Copyright (C) 2016 Ecole Supérieur Polytechnique d'Antsiranana
+%%
+%% Ce document était rédiger pour servir de modèle de rédaction de
+%% rapport de mémoire pour l'ESPA. Il est sous licence libre.
+%%
+%% le concepteur et celui qui le met ajours est actuellement
+%% Mr ANDRIANAJAINA Todizara todizara.andrianajaina@gmail.com>.
+%%
+%% Ce ci est le programme principale du document.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%           Fichier maitre				%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper, 12pt]{report} 
+\input{Preambule}		% Liste des packages et de leurs options
+%\input{CommandesPerso}	% Commandes et environnements perso
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%   			Liste des fichiers à compiler					%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\includeonly{Couverture,PageDeGarde,Remerciement,introduction,Chapitre1,Chapitre2,Chapitre3,Conclusion,Annexes}
+
+
+
+% Infos de la page de garde
+\author{ANDRIAMAMONJISOA \scshape{ Faniry Navalona}}
+\title{CALENDRIER POTAGER SOUS ANDROID}
+\encadreura{Dr. ANDRIAMIHARINJAKA \scshape{Hasina}}
+\encadreurb{M. ANDRIANIRINIAIMALAZA \scshape{Todizara}}
+\date{27 mai 2016}                   
+\jurya{Dr. ANDRIAMIHARINJAKA Hasina}{}{Président de jury }
+\juryb{M. RAZAFINJAKA Nirinarison Jean}{}{Encadreur}
+\juryc{M. ANDRIANIRINIAIMALAZA Philibert}{}{Encadreur}
+\juryd{M. ANDRIANANTENAINA Tsiory Patrick}{}{Examinateur}
+\ecole{ECOLE SUPERIEURE POLYTECHNIQUE D’ANTSIRANANA}
+\departement{MENTION MASTER STIC}
+\typeRapport{MEMOIRE DE FIN D'ETUDES  EN VUE DE L'OBTENTION DU DIPLOME D'INGENIORAT}
+\specialite{Electronique et Informatique Industrielles}
+\anneeUniversitaire{Année Universitaire 2015 - 2016}
+\nomPromo{AJeIMa}
+
+%%%%%%code vronane
+% Méta-données du PDF
+\hypersetup{
+    pdfauthor={Andriamamonjisoa Faniry Navalona},
+    pdfsubject={MEMOIRE DE FIN D'ETUDES  EN VUE DE L'OBTENTION DU DIPLOME D'INGENIORAT},
+    pdftitle={Calendrier potager sous androïde},
+    %pdfkeywords={Défaut, photovoltaïque, détection, localisation}
+}
+
+
+
+\begin{document}
+% Préambule
+	\includefrom{}{Couverture}
+	\includefrom{}{PageDeGarde}
+	\pagenumbering{roman}
+	\dominitoc						% Génération des mini-toc	
+		% Table des matières
+			\strut %ou ~ ou \mbox{} ou \null insertion de page vide
+			\includepdf[page=1]{pdf/Sujets/Sujets_Projets_Fin_Semestre_2016_Final}%insertion depage
+			\newpage	
+			\includefrom{}{Remerciement}
+			%code V2nane
+			\newpage
+			\strut %ou ~ ou \mbox{} ou \null insertion de page vide
+
+			%code V2nane
+			\setcounter{tocdepth}{1}	% Pas besoin de trop détailler le sommaire ici (chapitres/sections)					
+			\tableofcontents
+			\cleardoublepage
+			
+		% Liste des figures
+			\addstarredchapter{Liste des figures}
+			\renewcommand*\listfigurename{Liste des figures}
+			\listoffigures
+		% Liste des tableaux
+			\addstarredchapter{Liste des tableaux}
+			\listoftables
+			\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%		
+% 		Contenu du document			%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  redéfinition de l'interligne   %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+{\setlength{\baselineskip}{1.5\baselineskip}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+	\pagenumbering{arabic}
+	\includefrom{}{introduction}
+	%\includefrom{Chapitre1/}{Chapitre1}	
+	%\includefrom{Chapitre2/}{Chapitre2}	
+	%\includefrom{Chapitre3/}{Chapitre3}
+	\includefrom{}{Chapitre1}	
+	\includefrom{}{Chapitre2}	
+	\includefrom{}{Chapitre3}
+	\includefrom{}{Conclusion}	
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% fin redéfinition de l'interligne %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\par}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	\pagenumbering{roman}
+	% Liste des acronymes, glossaire et liste des symboles (dans l'ordre)		
+	%\printglossary[type=\acronymtype , title={Liste des acronymes}, toctitle={Liste des acronymes},nonumberlist]
+	%\printglossary[title=Glossaire,toctitle=Glossaire,nonumberlist]
+	%\printglossary[type=notation,title={Liste des symboles}, toctitle={Liste des symboles},nonumberlist]
+\chapter*{Liste des acronymes}
+\begin{itemize}
+\item [\textbf{NL}] Nouvelle Lune
+\item [\textbf{PQ}] Premier Quartier
+\item [\textbf{PL}] Pleine Lune
+\item [\textbf{DQ}] Dernier Quartier
+\item [\textbf{CRUD}] CReate Update Delete
+\item [\textbf{API}] Application Programming Interface.
+\item [\textbf{DVM}] Dalvik Virtual Machine.
+\item [\textbf{GUI}] Graphic unit interface.
+\item [\textbf{IDE}] Integrated Development Environment.
+\item [\textbf{IHM}] Interface Homme Machine.
+\item [\textbf{OHA}] Open Handset Alliance.
+\item [\textbf{SDK}] Software Development Toolkit.
+\item [\textbf{SGBD}] Système de Gestion de base de données.
+\item [\textbf{UI}] User Interface.
+\item [\textbf{UNA }] Université Nord d'Antsiranana
+\end{itemize}
+
+
+\newpage
+\addstarredchapter{Références}
+\markboth{BIBLIOGRAPHIE}{}
+\nocite{*} 
+\bibliographystyle{alpha}
+\bibliography{Biblio}
+%-----------------------------------------------------------
+\chapter*{WEBOGRAPHIE}
+\begin{itemize}
+\item [1] http://www.arcminute-moon-position-algorithm.htm
+\item [2] http://astronomie-smartsmur.over-blog.com/article-4-1-les-periodes-synodiques-88312148.html
+\item [3] https://sites.google.com/site/astronomievouteceleste/home
+\item [4] http://www.Agriculturee-biodynamiquee-Definitione-de-Agriculturee-biodynamique-ete-synonymese-de-Agriculturee-biodynamique.htm
+\item [5] http://www.Agro-oi-Union-Matanjaka.htm
+\item [6] http://Astrologie0 quel est votre signe lunaire - Femme Actuelle.html
+\end{itemize}
+
+\let\oldclearpage\clearpage
+\newpage
+%	% Annexes
+	\begin{appendix}
+		\pagenumbering{Roman}
+			\includefrom{}{Annexes}				% Figures en annexe
+	\end{appendix}
+	
+\end{document}

@@ -1,0 +1,64 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Main.aux
+A level-1 auxiliary file: Couverture.aux
+A level-1 auxiliary file: PageDeGarde.aux
+A level-1 auxiliary file: Remerciement.aux
+A level-1 auxiliary file: introduction.aux
+A level-1 auxiliary file: Chapitre1.aux
+A level-1 auxiliary file: Chapitre2.aux
+A level-1 auxiliary file: Chapitre3.aux
+The style file: alpha.bst
+I couldn't open auxiliary file Annexes/Annexes.aux
+---line 72 of file Main.aux
+ : \@input{Annexes/Annexes.aux
+ :                            }
+I'm skipping whatever remains of this command
+Database file #1: Biblio.bib
+Warning--empty journal in Yann2008
+Warning--empty journal in Alejandro2000
+Warning--empty journal in Kartik2014
+Warning--empty journal in Williamann-BellInc
+Warning--empty journal in Nikhil2011
+You've used 5 entries,
+            2543 wiz_defined-function locations,
+            591 strings with 5019 characters,
+and the built_in function-call counts, 1557 in all, are:
+= -- 141
+> -- 77
+< -- 4
++ -- 25
+- -- 25
+* -- 96
+:= -- 284
+add.period$ -- 15
+call.type$ -- 5
+change.case$ -- 31
+chr.to.int$ -- 5
+cite$ -- 10
+duplicate$ -- 69
+empty$ -- 101
+format.name$ -- 32
+if$ -- 293
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 5
+newline$ -- 29
+num.names$ -- 15
+pop$ -- 39
+preamble$ -- 1
+purify$ -- 36
+quote$ -- 0
+skip$ -- 55
+stack$ -- 0
+substring$ -- 35
+swap$ -- 0
+text.length$ -- 4
+text.prefix$ -- 3
+top$ -- 0
+type$ -- 40
+warning$ -- 5
+while$ -- 11
+width$ -- 7
+write$ -- 58
+(There was 1 error message)

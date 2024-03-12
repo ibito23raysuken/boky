@@ -1,0 +1,111 @@
+\makeatletter
+\newgeometry{top=2.5cm, bottom=2cm, left=2cm, right=2cm}
+%\AddToShipoutPicture*{\BackgroundPic}
+%\AddToShipoutPicture*{\EtiquetteThese}
+  \begin{titlepage}
+	\includegraphics[width=0.15\textwidth]{logo_espa}
+	\hfill \includegraphics[width=0.15\textwidth]{logo_una}\\
+	%\hspace*{1.5 cm}
+	\parbox{9cm}{
+	\begin{center}
+	\vspace*{-30 mm}\large\textbf{REPOBLIKAN'I MADAGASIKARA}\\
+	\small\textbf{FITIAVANA - TANINDRAZANA - FANDROSOANA}\\
+	\vspace*{0.2 cm}
+	\normalsize\textbf{MINISTÈRE DE L'ENSEIGNEMENT SUPÉRIEUR ET DE LA RECHERCHE SCIENTIFIQUE}\\
+	\end{center}
+	 }
+	 \centering
+	 \parbox{\textwidth}{
+	\begin{center}
+		\vspace*{4 mm} 
+	 	\normalsize\large\textbf{\@ecole}
+	\end{center}
+	 }
+\\
+	\centering\parbox{\textwidth}{
+		\begin{center}
+		\large\textbf{\@departement} 
+		\end{center}			
+	}
+\\
+	\centering\parbox{\textwidth}{
+		\begin{center}
+		\color{black}\rule{\textwidth}{1.5pt}\\
+		\vspace*{-0.42 cm}
+		\rule{\textwidth}{0.5pt}\\
+		\end{center}			
+	}\\
+	\vspace*{-0.7 cm}
+	\centering\parbox{\textwidth}{
+		\begin{center}
+		\begin{normalsize}
+		\color{black} 
+		\textbf{\@typeRapport}
+		\end{normalsize}
+		\end{center}			
+	}\\
+	\vspace*{-0.7 cm}
+	\centering\parbox{\textwidth}{
+		\begin{center}
+		\color{black}\rule{\textwidth}{0.5pt}\\
+		\vspace*{-0.38 cm}
+		\rule{\textwidth}{1.5pt}\\	
+		\end{center}			
+	}\\
+		\centering\parbox{\textwidth}{
+		\begin{center}		
+		\large\textbf{\@specialite} \\			
+		\end{center}			
+	}\\
+	\vfill
+		\parbox{\textwidth}{		
+		\begin{center}
+       		{\Huge \color[rgb]{0,0,0} \bfseries{\@title}} \\	
+		\end{center}
+		}
+	\vfill
+	
+	\parbox{\textwidth}{
+	\begin{center}
+	\large{Par :}  \\
+	\vspace{0.3 cm}
+	\large{\@author} \\
+	\vspace*{1 cm}
+	\large{Encadreurs :}\\
+	\vspace{0.3 cm}
+	\begin{tabular}{ll}
+		\@encadreura \\
+		\@encadreurb \\
+		\@encadreurc \\
+	\end{tabular}
+	\\
+	\vspace{0.3 cm}
+	\large{Membre de jury :} \\
+	\vspace{0.3 cm}
+	\begin{tabular}{lcc}
+		\@jurya
+		\@juryb
+		\@juryc
+		\@juryd
+		\@jurye
+		\@juryf
+		\@juryg
+		\@juryh
+		\@juryi
+	\end{tabular}
+	\end{center}
+	}
+	
+	\parbox{\textwidth}{
+	\begin{center}
+	$\star$
+	\centering\textit{\@anneeUniversitaire} $\star$ \\
+	\centering\textit{Promotion : \@nomPromo}
+	\end{center}
+	}
+\end{titlepage}
+
+
+\restoregeometry  
+  
+\makeatother

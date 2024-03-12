@@ -1,0 +1,72 @@
+
+@PhdThesis{Ahmed2012,
+author = {Ahmed HOUSEIN},
+title = {Surveillance et Diagnostic de pannes des panneaux photovoltaïques},
+school = {Université de Corse-Pascal Paoli},
+year = {2012},
+OPTaddress = {Ecole Doctorale Environnement et Société - UMR CNRS 6134 (SPE)},
+OPTmonth = {novembre}
+}
+@InProceedings{Schirone94,
+author = {L. Schirone and F. P. Califano},
+title = {Fault finding in a 1 MW photovoltaic plant by reflectometry},
+booktitle = {Photovoltaic Energy Conversion},
+OPTcrossref = {Conference Record of the Twenty Fourth},
+OPTpages = {846 849},
+OPTyear = {1994},
+OPTeditor = {IEEE Photovoltaic Specialists Conference}
+}
+@Book{Cornillon2011,
+author = {P. Cornillon and E. Matzner-Lober},
+editor = {Springer Paris Berlin Heidelberg New York},
+title = {Régression avec R},
+publisher = {Springer-Verlag France},
+chapter = {Méthode des moindres carrés},
+year = {2011},
+address = {Département MASS Université Rennes-2-Haute-Bretagne France},
+pages = {157-168},
+isbn = {ISBN : 978-2-8178-0183-4}
+}
+
+@TechReport{Goetzberger1998,
+	author = {A. Goetzberger and J. Knobloch and B. Vo\ss},
+	title = {Crystalline silicon solar cells},
+	institution = {John Wiley \& Sons},
+	year = {1998}
+}
+
+@phdthesis{Bun11,
+	author = "Long Bun",
+	booktitle = "{Thèse de doctorat}",
+	month = nov,
+	school = "Université de Grenoble",
+	title = "{Détection et localisation de défauts dans un système photovoltaïque}",
+	year = "2011"
+}
+
+@inproceedings{Kaushika03,
+	author = "N. D. Kaushika and N. K. Gautam ",
+	booktitle = "Energy Conversion, IEEE Transactions", 
+	pages = "127-134",
+	title = "{Energy yield simulations of interconnected solar PV arrays}",
+	volume = "18",
+	year = "2003"
+}
+
+@article{Wang11,
+title = "An investigation on partial shading of \{PV\} modules with different connection configurations of \{PV\} cells ",
+journal = "Energy ",
+volume = "36",
+number = "5",
+pages = "3069 - 3078",
+year = "2011",
+note = "",
+issn = "0360-5442",
+doi = "http://dx.doi.org/10.1016/j.energy.2011.02.052",
+url = "http://www.sciencedirect.com/science/article/pii/S0360544211001484",
+author = "Yaw-Juen Wang and Po-Chun Hsu",
+keywords = "Connection configurations",
+keywords = "Partial shading",
+keywords = "Photovoltaic cells",
+keywords = "Solar energy "
+}
